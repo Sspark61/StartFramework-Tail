@@ -3,7 +3,6 @@ import avatar from "../../assets/avataaars.svg";
 import styles from "./Home.module.css";
 import { FaStar } from "react-icons/fa";
 
-
 export default function Home() {
   return (
     <div className="bg-[#1abc9c] text-white flex justify-center items-center min-h-screen w-full">
