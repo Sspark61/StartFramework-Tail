@@ -4,7 +4,7 @@ import { NavLink } from "react-router-dom";
 
 function Navbar() {
   return (
-    <nav className={`${styles.navbar} w-full fixed top-0 left-0 p-3.5`}>
+    <nav className={`${styles.navbar} w-full fixed top-0 left-0 p-3.5 z-10`}>
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
         <NavLink
           className="text-white uppercase text-xl md:text-2xl lg:text-3xl"
